@@ -1,11 +1,11 @@
 # ShapeVAE
 
-A PyTorch implementation of a Variational Autoencoder (VAE) for reconstructing 3D crystal structures from 2D projection images and predicting viewing angles.
+A PyTorch implementation of a Variational Autoencoder (VAE) for reconstructing 3D crystal morphologies from 2D image data and predicting viewing angles.
 
 ## Overview
 
 This project trains a VAE to:
-- Reconstruct 3D crystal structures (706-dimensional tensor representation of unit sphere scalars) from 2D images (120x120 grayscale)
+- Reconstruct 3D crystal morphologies (706-dimensional tensor representation of unit sphere scalars) from 2D images (120x120 grayscale)
 - Predict viewing angles (azimuth: 0-360°, elevation: 0-180°) 
 - Learn disentangled latent representations separating shape and orientation information
 
